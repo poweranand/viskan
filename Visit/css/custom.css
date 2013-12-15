@@ -1,0 +1,211 @@
+/*
+Custom Stylesheet
+Author: Anand;
+Website:viskanchi.org;
+
+*/
+
+body{	
+	background:  url(../img/main-bg.jpg) repeat fixed center 0;
+	color: #000 !important;
+	font-family:Trebuchet MS;
+
+	
+}
+
+p {
+margin: 0 0 10px;
+color: #000;
+font-style: oblique;
+font-weight: 500;
+font-size: 16px;
+}
+
+#contentBox{	
+	background: url(../img/contentBG.png);
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	margin-top: -10px;	
+}
+
+.bgLayer{
+background: url(../img/body-bg.jpg) center top;
+opacity: 0.9;
+overflow: hidden;
+margin-top: 1px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 10px; 
+}
+
+.shadeBorder{
+	background: url(../img/top.png) repeat-x;
+	margin-top: -5px;
+}
+
+.sideBar{
+	margin-top: 10px;
+	background:  url(../img/body-bg.jpg) center top;
+	
+}
+
+
+.navbar-inverse{
+		background-color: rgba(31, 22, 7, 0.69) !important;
+}
+
+.nav
+{
+	padding-top: 5px !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	background-color: #825a1f !important;
+	border:none !important;
+	border-color:none !important;
+}
+
+
+
+
+/* Slider */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+
+.Linktxt {
+background: url(http://shopping.kitchensofindia.com/skin/frontend/default/default/images/minicart_bg.png) repeat !important;
+color: #000;
+opacity: 0.9;
+cursor:pointer;
+background-color:none !important;
+}
+
+
+
+
+
+/* new styled borders */
+.sb-bot {background:url(../img/sidebar-bottom.jpg) center bottom repeat-x; margin-top:15px;}
+.sb-top {background:url(../img/sidebar-top.jpg) center top repeat-x;}
+.sb-right {background:url(../img/sb-border.gif) right top repeat-y;}
+.sb-left {background:url(../img/sb-border.gif) left top repeat-y;}
+.sb-rb {background:url(../img/sidebar-rb.jpg) right bottom no-repeat;}
+.sb-lb {background:url(../img/sidebar-lb.jpg) left bottom no-repeat;}
+.sb-rt {background:url(../img/sidebar-rt.jpg) right top no-repeat; width:100%}
+.sb-lt {position:relative; background:url(../img/sidebar-lt.jpg) left top no-repeat; padding:10px 10px 15px 10px; width:100%; overflow:hidden;}
+
+.sb-ltSlide {text-align:center; position:relative; background:url(../img/sidebar-lt.jpg) left top no-repeat; padding:10px 10px 15px 10px; width:100%; overflow:hidden;}
+
+.sb-bot h2 {position:relative; font:bold 13px "Trebuchet MS"; color:#602600; margin:0 -6px; text-align:center; background:url(../img/sidebar-title-line.jpg) center bottom no-repeat; padding:3px 0 18px 0;}
+.sb-bot a {color:#602600;}
+.sb-bot ul {display:inline-block; position:relative; padding:3px 0 0px 0; list-style:none; background:none}
+.sb-bot ul li { margin-left: 25px; display:block; position:relative; font-size: 11px; font-size:1em; color:#240f02; padding:0px 0px;}
+* html .sb-botrs ul li {display:inline-block;}
+*:first-child+html .sb-bot ul li {display:inline-block;}
+.sb-bot ul li a {color:#602600; padding:2px 0px 2px 15px; display:block; background: url(../img/sb-marker.gif) 3px 7px no-repeat;}
+
+.sb-bot ul .tree {color:#602600; padding:2px 0px 2px 15px; display:block; }
+
+.sb-bot ul li.current-cat a {color:#240f02; background:#c18c35 url(../img/sb-marker-hover.gif) 3px 7px no-repeat;}
+.sb-bot ul li a:hover {color:#240f02; background:#c18c35 url(../img/sb-marker-hover.gif) 3px 7px no-repeat; text-decoration:none;}
+.sb-bot ul li p a {color:#602600; display:inline; background: none; padding:0px;}
+.sb-bot ul li p a:hover {color:#602600; display:inline; background:#c18c35 none; padding:0px;}
+.sb-bot ul li ul {padding:0px 0 0px 0px; list-style:none;}
+.sb-bot ul li ul li a {padding:2px 0px 2px 25px; background: url(../img/sb-marker.gif) 13px 7px no-repeat;}
+.sb-bot ul li ul li a:hover {background:#c18c35 url(../img/sb-marker-hover.gif) 13px 7px no-repeat;}
+
+
+/* Dropdown style */
+  .select_join {
+   
+width: 170px;
+   height: 28px;
+   overflow: hidden;
+   background: url('../img/dropdown.png') no-repeat right #FEFEFE;
+   border: #FEFEFE 1px solid;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+   }
+.select_join select {
+  
+   background: transparent;
+   width: 170px;
+   font-size:7pt;
+   color:grey;
+   border: 0;
+   border-radius: 0;
+   height: 28px;
+   -webkit-appearance: none;
+   
+   }
+   .select_join select:focus {
+    outline: none;
+
+}
+
+/* Styling Classic Heading */
+
+ .heading {
+  position: relative;
+  height: 26px;
+  
+  /* allow for the pseudo-elements which do not have layout due to absolute positioning */
+  margin: 0 15px;
+  border: 0;
+  background: #a96b17;
+  cursor: default;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: #FDD159;
+}
+.heading::before,
+.heading::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 26px;
+}
+.heading::before {
+  left: -28px;
+  background: url(../img/left_head.png) no-repeat;
+}
+.heading::after {
+  right: -28px;
+  background: url(../img/right_head.png) no-repeat;
+}

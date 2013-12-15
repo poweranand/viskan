@@ -1,0 +1,7 @@
+the revision hosted is rev 1 from new repository visitkanchi repo 2;
+hosting date: 17-nov-2011
+hosted by :esathish
+
+notes:
+------
+All the .html/.aspx files hosted contain GOOGLE ANALYTICS CODE. 
